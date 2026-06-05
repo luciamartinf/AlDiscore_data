@@ -51,7 +51,7 @@ We define an MSA ensemble as a collection of alternative MSAs inferred on the sa
 
 | Parameter                                     | Value                            | Reference                  |
 | --------------------------------------------- | -------------------------------- | -------------------------- |
-| **ClustalO v1.2.4**                                                                                    |
+|                                                 **ClustalO v1.2.4**                                                                                    |
 | `max-guidetree-iterations`                    | [1, 2, 3, 4]                     | Sievers et al. (2011)      |
 | `max-hmm-iterations`                          | [1, 2]                           |                            |
 | **MAFFT v7.525 (FFT-NS-2, G-INS-i, L-INS-i)**                                                        |
@@ -64,4 +64,37 @@ We define an MSA ensemble as a collection of alternative MSAs inferred on the sa
 | **Muscle v5.1**                                                                                            |
 | `replicates`                                  | 2                                | Edgar (2022)               |
 | `stratified`                                  |                                  |                            |
+
+| Parameter | Value | Reference |
+| :-------- | :---- | :-------- |
+
+### ClustalO v1.2.4
+
+| Parameter                  | Value        | Reference             |
+| :------------------------- | :----------- | :-------------------- |
+| `max-guidetree-iterations` | [1, 2, 3, 4] | Sievers et al. (2011) |
+| `max-hmm-iterations`       | [1, 2]       |                       |
+
+### MAFFT v7.525 (FFT-NS-2, G-INS-i, L-INS-i)
+
+| Parameter | Value                            | Reference           |
+| :-------- | :------------------------------- | :------------------ |
+| `op`      | [1.1475, 1.4025, 1.6575, 1.9125] | Katoh et al. (2002) |
+| `ep`      | [0.0922, 0.1538]                 |                     |
+
+### Muscle v3.8.31
+
+| Parameter  | Value                | Reference                  |
+| :--------- | :------------------- | :------------------------- |
+| `weight1`  | ["clustalw", "none"] | Edgar and Batzoglou (2006) |
+| `weight2`  | ["clustalw", "none"] |                            |
+| `objscore` | ["spf", "xp"]        |                            |
+
+### Muscle v5.1
+
+| Parameter    | Value | Reference    |
+| :----------- | :---- | :----------- |
+| `replicates` | 2     | Edgar (2022) |
+| `stratified` |       |              |
+
 
