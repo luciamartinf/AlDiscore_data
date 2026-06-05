@@ -5,8 +5,8 @@ Collection of sequence sets, published MSAs and generated alignments used in the
 
 | Source              | # Sets | Description                                                                              | Reference                                      |
 | ------------------- | ------ | ---------------------------------------------------------------------------------------- | ---------------------------------------------- |
-|** HOMSTRAD **           | 193    | Data from HOMSTRAD, used for benchmarking in Formatt.                                    | Daniels et al. (2012), Stebbings et al. (2004) |
-| **SABmark-Twilight   ** | 158    | Data from the Twilight subset of SABmark, used for benchmarking in Formatt.              | Daniels et al. (2012), Van Walle et al. (2005) |
+|**HOMSTRAD**           | 193    | Data from HOMSTRAD, used for benchmarking in Formatt.                                    | Daniels et al. (2012), Stebbings et al. (2004) |
+| **SABmark-Twilight** | 158    | Data from the Twilight subset of SABmark, used for benchmarking in Formatt.              | Daniels et al. (2012), Van Walle et al. (2005) |
 | **SABRE**               | 272    | Compiled by Robert Edgar. Consistent multiple alignments constructed from SABMARK v1.65. | Edgar (benchmark), Van Walle et al. (2005)     |
 | **BAliBASEv3**          | 386    | Compiled by Robert Edgar. BAliBASE v3.                                                   | Edgar (benchmark), Thompson et al. (2005)      |
 | **PREFABv4**            | 1665   | Compiled by Robert Edgar. PREFAB v4.                                                     | Edgar (benchmark), Edgar (2004)                |
